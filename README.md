@@ -4,6 +4,8 @@
 
 **📄 PigeonGigs**, post and find dev gigs 🚀
 
+* Huge thank you to [Traversy Media](https://www.youtube.com/c/TraversyMedia) who made the Laravel tutorial I used to make this app. You can find the video here: [Laravel from Scratch 2022](https://www.youtube.com/watch?v=MYyJ4PuL4pY)
+
 - [v1.1.0](https://github.com/johnmcalester/pigeongigs/releases/tag/v0.1.0): Initial release
 
 ## 📙 Requirements
