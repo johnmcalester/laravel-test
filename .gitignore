@@ -14,3 +14,7 @@ npm-debug.log
 yarn-error.log
 /.idea
 /.vscode
+.vercel
+.DS_Store
+storage/.DS_Store
+yarn.lock

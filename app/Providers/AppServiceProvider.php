@@ -14,7 +14,10 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        //
+        // Only load Clockwork's service provider if the package is installed
+        if ($this->app->environment('local') && config('clockwork.enable')) {
+            $this->app->register(\Clockwork\Support\Laravel\ClockworkServiceProvider::class);
+        }
     }
 
     /**
