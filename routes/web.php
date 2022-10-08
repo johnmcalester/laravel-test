@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ListingController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Models\Listing;
@@ -24,6 +25,12 @@ Route::get('/listings/create', 'App\Http\Controllers\ListingController@create');
 
 // Store listing data
 Route::post('/listings', 'App\Http\Controllers\ListingController@store');
+
+// Show edit form
+Route::get('listings/{listing}/edit', 'App\Http\Controllers\ListingController@edit');
+
+// Update listing
+Route::put('/listings/{listing}', 'App\Http\Controllers\ListingController@update');
 
 // Single Listing
 Route::get('/listings/{listing}', 'App\Http\Controllers\ListingController@show');
