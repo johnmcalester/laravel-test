@@ -2,7 +2,9 @@
 
 ### A simple job posting app built with Laravel
 
-**📄 PigeonGigs**, post and find dev gigs 🚀
+* View the demo site at: [https://www.pigeongigs.com/](https://www.pigeongigs.com/)
+
+**📄 PigeonGigs**, post and find dev gigs demo site
 
 * Huge thank you to [Traversy Media](https://www.youtube.com/c/TraversyMedia) who made the Laravel tutorial I used to make this app. You can find the video here: [Laravel from Scratch 2022](https://www.youtube.com/watch?v=MYyJ4PuL4pY)
 
