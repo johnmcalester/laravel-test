@@ -2,7 +2,7 @@
 
 ### A simple job posting app built with Laravel
 
-* View the demo site at: [https://www.pigeongigs.com/](https://www.pigeongigs.com/)
+* View the demo site at: [https://www.pigeongigs.com](https://www.pigeongigs.com)
 
 **📄 PigeonGigs**, post and find dev gigs demo site
 
